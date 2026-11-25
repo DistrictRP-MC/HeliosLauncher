@@ -14,10 +14,6 @@ The repository currently ships the upstream Helios Launcher images as placeholde
 
 Also set the social links (X, Instagram, YouTube, Discord) in `app/assets/lang/_custom.toml`; they are currently `#` placeholders marked `TODO(DistrictRP)`.
 
-# Azure / Microsoft authentication TODO
+# Azure / Microsoft authentication
 
-`app/assets/js/ipcconstants.js` still uses the upstream Helios Azure client ID. Before a public release:
-
-1. Register our own Azure application (see [MicrosoftAuth.md](MicrosoftAuth.md)).
-2. Submit the Minecraft API access request form so the app is allowed to log in to Minecraft services.
-3. Replace `AZURE_CLIENT_ID` in `app/assets/js/ipcconstants.js` and remove the `TODO(DistrictRP)` note.
+`app/assets/js/ipcconstants.js` uses the DistrictRP Entra app (`da8eccac-4873-4d62-891d-745b5eed53ac`). Microsoft sign-in only works once Microsoft approves the app for Minecraft API access (form: https://aka.ms/mce-reviewappid, see [MicrosoftAuth.md](MicrosoftAuth.md)).
