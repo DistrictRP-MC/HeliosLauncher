@@ -16,4 +16,4 @@ Also set the social links (X, Instagram, YouTube, Discord) in `app/assets/lang/_
 
 # Azure / Microsoft authentication
 
-`app/assets/js/ipcconstants.js` uses the DistrictRP Entra app (`da8eccac-4873-4d62-891d-745b5eed53ac`). Microsoft sign-in only works once Microsoft approves the app for Minecraft API access (form: https://aka.ms/mce-reviewappid, see [MicrosoftAuth.md](MicrosoftAuth.md)).
+`app/assets/js/ipcconstants.js` uses the DistrictRP Entra app (`b2888c2b-24ea-4a08-a676-56c5f4ea7867`). Microsoft sign-in only works once Microsoft approves the app for Minecraft API access (form: https://aka.ms/mce-reviewappid, see [MicrosoftAuth.md](MicrosoftAuth.md)).
