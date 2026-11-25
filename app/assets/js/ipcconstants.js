@@ -1,7 +1,8 @@
 // NOTE FOR THIRD-PARTY
 // REPLACE THIS CLIENT ID WITH YOUR APPLICATION ID.
-// SEE https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md
-exports.AZURE_CLIENT_ID = '1ce6e35a-126f-48fd-97fb-54d143ac6d45'
+// SEE https://github.com/DistrictRP-MC/HeliosLauncher/blob/master/docs/MicrosoftAuth.md
+// DistrictRP Launcher Entra app. Sign-in requires Microsoft's Minecraft API approval.
+exports.AZURE_CLIENT_ID = 'b2888c2b-24ea-4a08-a676-56c5f4ea7867'
 // SEE NOTE ABOVE.
 
 
