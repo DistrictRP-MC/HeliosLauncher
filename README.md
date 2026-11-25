@@ -1,12 +1,10 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">Helios Launcher</h1>
+<h1 align="center">DistrictRP Launcher</h1>
 
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<p align="center">The official launcher for the DistrictRP modded Minecraft server (Minecraft 1.20.1, Forge 47.4.28). It installs Java, Forge and all required mods for you, and keeps them up to date.</p>
 
-[<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/dscalzi/HeliosLauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/dscalzi/HeliosLauncher/actions) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="winter-is-coming"></p>
-
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+> This project is a fork of [Helios Launcher](https://github.com/dscalzi/HeliosLauncher) by Daniel Scalzi, used under its original license (see [LICENSE](LICENSE)). The distribution is generated with [Nebula][nebula] and served from `https://launcher-assets.districtrp.xyz/distribution.json`. Visual assets and the Microsoft Azure client ID are still placeholders: see [docs/ASSETS.md](docs/ASSETS.md) and [docs/MicrosoftAuth.md](docs/MicrosoftAuth.md).
 
 ![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
 ![Screenshot 2](https://i.imgur.com/x3B34n1.png)
@@ -39,25 +37,25 @@ This is not an exhaustive list. Download and install the launcher to gauge all i
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+You can download from [GitHub Releases](https://github.com/DistrictRP-MC/HeliosLauncher/releases)
 
 #### Latest Release
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
+[![](https://img.shields.io/github/release/DistrictRP-MC/HeliosLauncher.svg?style=flat-square)](https://github.com/DistrictRP-MC/HeliosLauncher/releases/latest)
 
 #### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
+[![](https://img.shields.io/github/release/DistrictRP-MC/HeliosLauncher/all.svg?style=flat-square)](https://github.com/DistrictRP-MC/HeliosLauncher/releases)
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/DistrictRP-MC/HeliosLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
-| macOS x64 | `Helios-Launcher-setup-VERSION-x64.dmg` |
-| macOS arm64 | `Helios-Launcher-setup-VERSION-arm64.dmg` |
-| Linux x64 | `Helios-Launcher-setup-VERSION.AppImage` |
+| Windows x64 | `DistrictRP-Launcher-setup-VERSION.exe` |
+| macOS x64 | `DistrictRP-Launcher-setup-VERSION-x64.dmg` |
+| macOS arm64 | `DistrictRP-Launcher-setup-VERSION-arm64.dmg` |
+| Linux x64 | `DistrictRP-Launcher-setup-VERSION.AppImage` |
 
 ## Console
 
@@ -91,7 +89,7 @@ This section details the setup of a basic developmentment environment.
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
+> git clone https://github.com/DistrictRP-MC/HeliosLauncher.git
 > cd HeliosLauncher
 > npm install
 ```
@@ -181,7 +179,7 @@ Note that you **cannot** open the DevTools window while using this debug configu
 
 Please give credit to the original author and provide a link to the original source. This is free software, please do at least this much.
 
-For instructions on setting up Microsoft Authentication, see https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
+For instructions on setting up Microsoft Authentication, see https://github.com/DistrictRP-MC/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
 
 ---
 
@@ -193,8 +191,6 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
-
 ---
 
 ### See you ingame.
@@ -205,7 +201,6 @@ The best way to contact the developers is on Discord.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/zNWUXdt 'Discord'
 [wiki]: https://github.com/dscalzi/HeliosLauncher/wiki 'wiki'
-[nebula]: https://github.com/dscalzi/Nebula 'dscalzi/Nebula'
+[nebula]: https://github.com/dscalzi/Nebula 'Nebula'
 [v2branch]: https://github.com/dscalzi/HeliosLauncher/tree/ts-refactor 'v2 branch'
